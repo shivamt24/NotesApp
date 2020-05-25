@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_layout"
+        android:orientation="vertical"
+        android:layout_margin="5pt">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textColor="#3F51B5"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:paddingLeft="10pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" fuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgffuysrbfnrshjgf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="6" />
+
+            <ImageButton
+                android:id="@+id/ivDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background_layout"
+                app:srcCompat="@drawable/baseline_delete_forever_black_18dp" />
+
+            <ImageButton
+                android:id="@+id/ivEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background_layout"
+                app:srcCompat="@drawable/baseline_edit_black_18dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
